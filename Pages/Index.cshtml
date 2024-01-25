@@ -22,6 +22,7 @@
 <body>
     <h1>Signup Form</h1>
     <form id="formSignup" action="" method="post">
+        <input type="hidden" id="hdnGoogleRecaptcha" required><br />
         <p>reCAPTCHA Token (Valid for 2 minutes)</p>
         <label id="lblValue">---</label><br /><br />
         <button type="submit" id="btnSignup" class="g-recaptcha" data-action="signup" data-sitekey="{site-key}">Sign up</button>
