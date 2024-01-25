@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\reCAPTCHAv3POC.props" />
+</Project>

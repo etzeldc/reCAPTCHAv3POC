@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        input {
+            font-size: 20px;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <title>Google reCPATCHA Implementation - Codingsonata.com</title>
+</head>
+<body>
+    <h1>Signup Form</h1>
+    <form id="formSignup" action="" method="post">
+        <p>reCAPTCHA Token (Valid for 2 minutes)</p>
+        <label id="lblValue">---</label><br /><br />
+        <button type="submit" id="btnSignup" class="g-recaptcha" data-action="signup" data-sitekey="{site-key}">Sign up</button>
+        <br />
+        <label id="lblMessage"></label>
+    </form>
+
+    <script src="https://www.google.com/recaptcha/api.js?render={site-key}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="@Url.Content("js/site.js")" ></script>
+</body>
+</html>

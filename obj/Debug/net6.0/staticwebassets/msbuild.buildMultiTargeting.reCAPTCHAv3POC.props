@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\reCAPTCHAv3POC.props" />
+</Project>

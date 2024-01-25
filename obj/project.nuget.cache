@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "maAmDJdICvdxfxo0i3NGs/5y3YUy+xfCU+uoW5djdtlmvQ+i20PuGV8JETc5bZifQUr23v/Jug/LdaukILReQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\c914169\\Repos\\reCAPTCHAv3POC\\reCAPTCHAv3POC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\c914169\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
